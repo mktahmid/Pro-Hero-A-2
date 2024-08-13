@@ -1,0 +1,21 @@
+@media screen and (max-width:576px){
+  navbar{
+    
+  }
+   .nav-links{
+    display: none;
+   }
+  .nav-banner{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+  }
+  .header-left{
+    width: 100%;
+  }
+  .header-right{
+    width: 100%;
+  }
+  .habbits{
+    flex-direction: column;
+  }
+}

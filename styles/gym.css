@@ -4,6 +4,179 @@
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight:400;
+  font-weight:300;
   font-style: normal;
+}
+
+ .
+ #yellowtail-regular{
+  font-family: 'Miama';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Miama'), url('https://fonts.cdnfonts.com/s/302/Miama-Regular.woff') format('woff');
+}
+
+
+/* shared styles */
+.hide{
+  display: none;
+}
+.display-flex{
+  display: flex;
+}
+.orange{
+  color: rgba(230, 83, 60, 1);
+}
+.white{
+  color: rgba(255, 255, 255, 1);
+}
+.white-50{
+  color: rgba(255, 255, 255, 0.5);
+}
+.white-10{
+  color: rgba(255, 255, 255, 0.1);
+}
+h1,h2,h3{
+  color: rgba(255, 255, 255, 1);
+}
+p{
+  color: rgba(255, 255, 255, 0.5);
+}
+body > section{
+  margin-top: 90px;
+}
+/* header style */
+#header{
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,#111111 0%,#343434 0%,#111111 100%
+  );
+}
+/* navbar related styles */
+.navbar{
+justify-content: space-between;
+
+
+}
+.navbar-tittle{
+  font-weight: 800;
+  font-size: 24px;
+}
+.nav-item{
+ list-style: none; 
+ margin-right: 47px;
+font-weight: 100;
+
+}
+.nav-links{
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+
+}
+.nav-link{
+text-decoration: none;
+font-size: 18px;
+}
+.nav-link-1{
+  background-color: rgba(230, 83, 60, 1);
+ padding: 3px 8px;
+ border-radius: 39px;
+
+}
+.navbar, .nav-banner,.habbit-section{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* header style  */
+.nav-banner{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left{
+  /* border: 2px solid black; */
+   width: 600px;
+   width: 50%; 
+ 
+}
+.banner-tittle{
+  font-size: 78px;
+}
+.banner-description{
+  font-size: 16px;
+}
+.header-btn-1{
+  background-color:  rgba(230, 83, 60, 1);
+padding: 8px 40px;
+border-radius: 40px;
+}
+.header-btn-2{
+ background-color: #111111;
+ padding: 8px 40px;
+ border-radius: 40px;
+}
+.header-right{
+  
+  width: px;
+  height: 580px; 
+  margin-top: 20px;
+  width: 38%;
+
+}
+.header-right > img{
+  width: 100%;
+  height: 100%;
+} 
+
+/* habit section start */
+.habbit-section{
+  margin-top: 90px;
+
+}
+.habit-top{
+  margin: 0 auto;
+   /* width: 671px;
+  height: 180px; */
+
+  margin-bottom: 58px;
+  text-align: center;
+}
+.habbit-section-tittle{
+  font-size: 48px;
+  text-align: center;
+}
+.habits{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.habit{
+
+  align-items: center;
+  text-align: center;
+}
+.habit-imgd{
+  width: 240px;
+  height: 180px;
+ 
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.habit-img{
+  border-radius: 100%;
+  box-shadow: 8px 8px 8px rgba(255, 255, 255, 0.1);  
+}
+.habit-tittle{
+  font-size: 18px;
+  font-weight: 600px;
+}
+.habit-description{
+  font-size: 14px;
+}
+@media screen and (max-width:576px) {
+
+
 }
