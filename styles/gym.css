@@ -18,7 +18,7 @@
 
 
 /* shared styles */
-.navbar, .nav-banner,.habbit-section,.run{
+.navbar, .nav-banner,.habbit-section,.run,.footer,.bmi-main,.team-section{
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -192,7 +192,7 @@ border-radius: 42px;
   max-width: 1000px;
   margin: 0 auto;
   background-color: #222222;
-  
+  margin-top: 100px;
   /* border: 2px solid blue; */
   justify-content: space-between;
 }
@@ -218,3 +218,126 @@ border-radius: 42px;
 .run-title{
   font-size: 48px;
 }
+
+
+.bmi-main{
+  margin-top: 100px;
+
+  /* min-height: 300px; */
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  }
+  .bmi-left{
+ 
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  }
+  .bmi-right{
+  width: 50%;
+   margin: 0 auto;
+ margin-bottom: 10px;
+  }
+  .bmi-h{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .bmi-form-container{
+
+  }
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 50px;
+  margin-bottom: 50px;
+  
+}
+td{
+  border: 1px solid  rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+.bmi-form-container{
+  display: flex;
+  justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.form-field{
+width: 45%;
+/* border: 2px solid red; */
+
+}
+.form-field-input{
+  width: 95%;
+  background-color: #343434;
+color: #343434;
+border-radius: 10px;
+padding: 10px;
+
+}
+.form-field-l{
+width: 95%;
+/* border: 2px solid red; */
+
+}
+.calculate{
+  padding: 40px 16px;
+  margin-top: 10px;
+} 
+
+.team-section{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.team-top{
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.team-container{
+  /* max-width: 1060px;
+  max-height: 650px;
+  background-color: #222222;
+  border-radius: 10px; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.team-img{
+ 
+width:   326.6px;
+height: 272px;
+}
+
+/* footer style */
+.footer{
+display: flex;
+background-color: #222222;
+margin-top: 100px;
+}
+.footer-left{
+  width: 50%;
+}
+.footer-right{
+  width: 50%;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.get-s{
+}
+.get-s-h{
+  font-size: 32px;
+}
+.get-s-ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: start;
+}
+
+
+

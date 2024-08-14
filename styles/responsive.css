@@ -48,8 +48,71 @@
     max-width: 287px;
   }
   .run-img{
-    width: 90%;
-
-    
+    width: 90%; 
   }
+
+
+.bmi-main{
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 353px;
+
+}
+.bmi-left{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 287px;
+}
+.bmi-right{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 287px;
+  margin-bottom: 30px;
+}
+
+.team-section{
+  margin: 0 auto;
+  max-width: 287px;
+  margin-bottom: 30px;
+}
+.teaam-top{
+  margin: 0 auto;
+  max-width: 287px;
+  margin-bottom: 30px;
+}
+.team-container{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin: 0 auto;
+  max-width: 287px;
+  margin-bottom: 30px;
+}
+
+.team-section{
+
+ 
+}
+
+
+  .footer{
+    /* flex-direction: row; */
+    margin: 0 auto;
+    max-width: 353px;
+  }
+  .footer-left{
+    width: 100%;
+  }
+  .footer-right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-flex{
+    display: flex;
+    flex-direction: column; 
+    margin: 0 auto;
+    max-width: 287px;
+  }
+
+  
 }
